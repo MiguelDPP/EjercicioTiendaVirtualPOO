@@ -6,7 +6,7 @@ public class Validator {
         return !value.trim().isEmpty();
     }
 
-    public static boolean positiveNumber(int number) {
-        return number > 0;
+    public static boolean positiveNumber(Number number) {
+        return number.intValue() > 0;
     }
 }
